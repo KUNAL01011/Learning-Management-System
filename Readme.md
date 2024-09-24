@@ -1,8 +1,49 @@
-## Learning Management System
+# Learning Management System
+
+Some Features:
+
+-   ⚛️ Tech Stack: 
+-   🔐 Authentication with JSONWEBTOKENS (JWT)
+-   🔥 zustand for state management etc.
+-   ✍️ send message
+-   🗑️ Deleting user his own message
+-   📝 Edit Profile Info
+-   🖼️ Edit Profile Image
+-   📷 Image Uploads using Cloudinary
+-   🌐 Deployment
+-   ⏳ And much more!
+
+### Clone the project
+
+```shell
+git clone https://github.com/KUNAL01011/web-media.git
+```
+
+### Setup .env file
+
+```js
+MONGO_URI=...
+PORT=...
+JWT_SECRET=...
+NODE_ENV=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
 
 ### A platform where you can sell your course
-
-
 
 ## BACKEND CODE
 
